@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+      <ScrollView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageview"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextClock
+            android:textSize="25dp"
+            android:format12Hour="hh:mm:ss a"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+        <DatePicker
+            android:id="@+id/datepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+         </DatePicker>
+          <TimePicker
+              android:id="@+id/time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+          </TimePicker>
+        </LinearLayout>
+      </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

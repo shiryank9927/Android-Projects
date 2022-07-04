@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Product</string>
+
+    <string-array name="name">
+        <item>Onewheeler</item>
+        <item>twowheeler</item>
+        <item>threewheeler</item>
+        <item>fourwheeler</item>
+        <item>clothes</item>
+
+    </string-array>
+</resources>
